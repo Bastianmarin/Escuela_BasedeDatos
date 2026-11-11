@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'Escuela_BaseDatos.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': BASE_DIR / 'db_academico_edu',
+        'NAME': 'db_academico_edu',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
